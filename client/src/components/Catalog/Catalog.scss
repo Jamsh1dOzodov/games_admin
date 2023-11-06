@@ -1,0 +1,54 @@
+.catalog {
+    border: 0.5px solid rgba(0, 0, 0, 0.20);
+    background: #FFF;
+    padding-right: 25px;
+
+    .wrapper {
+        align-items: center;
+    }
+
+    //catalog-left
+    &-left {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0 25px;
+
+        //catalog-left__img
+        &__img {
+            width: 115px;
+            height: 68px;
+        }
+
+        //catalog-left__name
+        &__name {
+            color: #000;
+            font-size: 16px;
+            font-weight: 400;
+            letter-spacing: -0.48px;
+        }
+    }
+
+    //catalog-right
+    &-right {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0 20px;
+
+        //catalog-right__settings
+        &__settings {
+            width: 25px;
+            height: 25px;
+        }
+
+        //catalog-right__deleteBtn
+        &__deleteBtn {
+            color: rgba(0, 0, 0, 0.60);
+            font-size: 16px;
+            font-weight: 400;
+            letter-spacing: -0.48px;
+            text-decoration-line: underline;
+        }
+    }
+}

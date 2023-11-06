@@ -1,0 +1,61 @@
+.head {
+    background-color: #445760;
+
+    .header {
+        padding: 0 80px 0 40px;
+
+        //header-titles
+        &-titles {
+            flex-basis: 50%;
+            display: flex;
+            padding: 20px 0;
+
+            //header-titles__title
+            &__title {
+                color: #FFF;
+                font-size: 20px;
+                font-weight: 400;
+                letter-spacing: 1.4px;
+                text-align: center;
+
+                &--right {
+                    letter-spacing: 6.6px;
+                    margin-left: 60px;
+                    text-align: start;
+                }
+            }
+        }
+
+
+        //header-form
+        &-form {
+            position: relative;
+            flex-basis: 50%;
+
+            //header-form__btn
+            &__btn {
+                width: 29px;
+                height: 29px;
+                position: absolute;
+                top: 4px;
+                right: 15px;
+            }
+
+            &::after {
+                position: absolute;
+                content: "";
+                top: 0;
+                right: 60px;
+                border-left: 1px solid #445760;
+                height: 37px;
+            }
+        }
+
+        //header__btn
+        &__btn {
+            width: 26px;
+            height: 26px;
+            margin-right: 5px;
+        }
+    }
+}

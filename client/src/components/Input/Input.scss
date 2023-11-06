@@ -1,0 +1,56 @@
+.input {
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.54px;
+    padding: 10px 8px;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+
+    //input--header
+    &--header {
+        background-color: #9CA6AA;
+        padding: 7px 60px 7px 15px;
+    }
+
+    //input--form
+    &--form {
+        padding: 8px 10px;
+        margin-top: 15px;
+
+        &::placeholder {
+            color: rgba(0, 0, 0, 0.40);
+        }
+    }
+
+    //input--modal
+    &--modal {
+        padding: 10px;
+        background-color: #F1F2F2;
+        border: none;
+
+        &:first-child {
+            margin-bottom: 17px;
+        }
+
+        &::placeholder {
+            color: rgba(0, 0, 0, 0.40);
+            font-size: 16px;
+            font-weight: 400;
+            letter-spacing: 1.12px;
+        }
+    }
+
+    //input--regist
+    &--regist {
+        padding: 8px 10px;
+        margin: 15px 0 15px;
+
+        &::placeholder {
+            color: rgba(0, 0, 0, 0.40);
+        }
+    }
+}

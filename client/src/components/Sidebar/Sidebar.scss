@@ -1,0 +1,44 @@
+.sidebar {
+    background-color: #445760;
+    height: 1024px;
+    //sidebar-list
+    &-list {
+
+        //sidebar-list__item
+        &__item{
+            width: 332px;
+
+            //sidebar-list__item--active
+            &--active{
+                background-color: #222F35;
+            }
+        }
+
+        //sidebar-list__link
+        &__link {
+            padding: 18px 0 18px 40px;
+            width: calc(100% - 40px);
+            display: flex;
+
+            .link {
+
+                //link__img
+                &__img {
+                    width: 29px;
+                    height: 29px;
+                    margin-right: 10px;
+                }
+
+                //link__text
+                &__text {
+                    color: #F1F3F4;
+                    font-size: 20px;
+                    font-weight: 400;
+                    letter-spacing: -0.6px;
+                }
+            }
+        }
+    }
+
+
+}

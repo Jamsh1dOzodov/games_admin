@@ -1,0 +1,91 @@
+.table {
+
+    //table-img
+    &-ava {
+        padding: 10px 0 10px 10px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.20);
+        //table-ava__img
+        &__img {
+            width: 50px;
+            height: 50px;
+        }
+    }
+
+    //table-name
+    &-name {
+        padding: 0 10px 0 15px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.20);
+        //table-name__text
+        &__text {
+            color: #000;
+            font-size: 18px;
+            font-weight: 400;
+            letter-spacing: 1.26px;
+            width: 260px;
+        }
+    }
+
+    //table-email
+    &-email {
+        padding-right: 10px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.20);
+        //table-email__text
+        &__text {
+            color: #000;
+            font-size: 18px;
+            font-weight: 400;
+            letter-spacing: 1.26px;
+            width: 485px;
+        }
+    }
+
+    //table-role
+    &-role {
+        padding-right: 65px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.20);
+        //table-role__text
+        &__text {
+            color: #000;
+            font-size: 18px;
+            font-weight: 400;
+            letter-spacing: 1.26px;
+            width: 142px;
+        }
+    }
+
+    //table-more
+    &-more {
+        padding-right: 35px;
+        position: relative;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.20);
+
+        //table-more__btn
+        &__btn {
+            width: 24px;
+            height: 24px;
+            border-radius: 50px;
+
+            &:hover {
+                background-color: #1895C73D;
+            }
+        }
+
+        //table-more__btns
+        &__btns {
+            overflow: hidden;
+            visibility: hidden;
+            opacity: 0;
+            position: absolute;
+            bottom: -35px;
+            left: -110px;
+            width: 125px;
+            z-index: 9;
+
+            &--clicked {
+                opacity: 1;
+                visibility: visible;
+                overflow: visible;
+            }
+        }
+    }
+}
